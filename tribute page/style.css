@@ -1,0 +1,45 @@
+*{
+    margin: 10px;
+    padding:10px;
+}
+header{
+    text-align: center ;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size:50px;
+    text-shadow: 3px 1px 8px brown;
+    color:black;
+    padding: auto;
+}
+body{
+    background-color: bisque;
+}
+img{
+    height: 350px;
+    width: 450px;
+    display: inline-block;
+    align-content: center;
+}
+.tribute-data{
+    box-sizing: border-box;
+    height:fit-content;
+    border: 2px solid rgb(211, 134, 33);
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(220,198,50,0.22461484593837533) 0%, rgba(223,187,23,0.31425070028011204) 81%);
+    box-shadow: 5px 5px 10px 1px rgb(205, 152, 87);
+    text-align: justify;
+    font-size: 20px;
+}
+.tribute-data li::marker{
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+    font-weight: 900;
+    outline-color: black;
+}
+.caption{
+    font-size: 25px;
+    text-align: justify;
+    display: block;
+}
+.footer{
+    font-size: 18px;
+}
